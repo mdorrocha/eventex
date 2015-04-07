@@ -11,3 +11,5 @@ Scripts
 *~
 *.sqlite3
 .idea
+.env
+eventex/staticfiles
