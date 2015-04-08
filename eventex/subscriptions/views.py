@@ -17,7 +17,7 @@ from eventex.subscriptions.models import Subscription
 #                   {'form': SubscriptionForm()})
 
 def subscribe(request):
-    
+
     if request.method == 'POST':
         return create(request)
     else:
